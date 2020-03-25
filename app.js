@@ -56,12 +56,12 @@ function charts(sample) {
       }
     ];
 
-    var barLayout = {
+    var barDesign = {
       title: "Most Common Bacteria!",
       margin: { t: 100, l: 125 }
     };
 
-    Plotly.newPlot("bar", barData, barLayout);
+    Plotly.newPlot("bar", barData, barDesign);
   });
 }
 
